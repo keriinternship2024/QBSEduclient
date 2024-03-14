@@ -1,0 +1,141 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: baseline;
+}
+.card {
+    background: #fff;
+}
+.text-header {
+    color: #009CD6;
+    font-weight: 400;
+    font-size: 10pt;
+}
+.calender {
+    border: none;
+    width: 30%;
+    height: 30px;
+    background: #009CD6;
+    color: #fff;
+    border-radius: 6px;
+}
+.header a{
+    font-size: 15pt;
+    text-align: center;
+    font-weight: 700;
+}
+.header span{
+    font-size: 13pt;
+    text-align: center;
+    font-weight: 700;
+}
+.calender .fa {
+    font-size: 14pt;
+    font-weight: 700;
+}
+.calender span {
+    margin-left: 15px;
+    font-size: 16pt;
+}
+.iconn1 img{
+    width: 39px;
+}
+.donvi{
+    color:#626262;
+}
+.filedinhkem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#ccc;
+    margin-top: 10px;
+}
+
+/* StartFooter */
+a {
+    color: #ccc;
+}
+footer {
+    background-color: #fff;
+    color: #ccc;
+    padding: 20px 20px 0px 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    text-align: center;
+    cursor: pointer;
+}
+.icon .fa {
+    font-size: 18pt;
+}
+.icon-text {
+    display: block;
+    margin-top: 5px;
+    opacity: 0;
+    /* initially hide text */
+}
+.icon.active .icon-text {
+    opacity: 1;
+}
+.special {
+    color: #0565AF
+}
+/* End Footer */
+
+@media screen and (min-width:767px) {
+    .text-header {
+        font-size: 20pt;
+    }
+    .calender span {
+        margin-left: 25px;
+        font-size: 23pt;
+    }
+    .total, .absent {
+        width: 110px;
+        height: 110px;
+    }
+    .attendance {
+        width: 150px;
+        height: 150px;
+    }
+    .total p, .total b, .attendance p, .attendance b, .absent p, .absent b {
+        font-size: 15pt;
+    }
+    .progress-text {
+        left: 444px;
+        top: 32px;
+        font-size: 18pt;
+    }
+    .grade {
+        width: 800px;
+        margin-left: 110px;
+    }
+    .block {
+        width: 120px;
+        height: 60px;
+        font-size: 18pt;
+    }
+    .class-block, .class-block-1 {
+        height: 100px;
+    }
+    footer {
+        padding: 20px 60px 10px 60px;
+    }
+    .icon .fa {
+        font-size: 30pt;
+    }
+    .icon-text {
+        font-size: 18pt;
+    }
+}

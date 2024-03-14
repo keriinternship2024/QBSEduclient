@@ -1,0 +1,132 @@
+.chevron {
+    flex: 0 0 auto;
+}
+.chevron .back {
+    color: #000;
+    font-size: 20pt;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.card {
+    background: #fff;
+}
+.text-header {
+    color: #009CD6;
+    font-weight: 700;
+    font-size: 13pt;
+}
+.calender {
+    border: none;
+    width: 40%;
+    background: #009CD6;
+    color: #fff;
+    border-radius: 6px;
+}
+.calender .fa {
+    font-size: 14pt;
+    font-weight: 700;
+}
+.calender span {
+    margin-left: 15px;
+    font-size: 16pt;
+}
+
+/* Start block grade */
+.grade {
+    width: 350px; 
+    margin-top: 15px;
+    margin-left: 130px;
+}
+.block {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: #c0c0c0;
+    border: 1px solid #0099CC;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* End block grade */
+
+.text {
+    margin-top: 15px;
+}
+
+@media screen and (min-width:767px) {
+    .chevron .back {
+        font-size: 26pt;
+    }
+    .text-header {
+        font-size: 18pt;
+    }
+    .calender span {
+        margin-left: 25px;
+        font-size: 23pt;
+    }
+    .block {
+        width: 130px;
+        height: 70px;
+        border-radius: 6px;
+    }
+    .block span {
+        font-size: 16pt;
+        font-weight: 700;
+    }
+    .block .fa {
+        font-size: 16pt;
+    }
+    .progress-text {
+        left: 444px;
+        top: 32px;
+        font-size: 16pt;
+    }
+    .grade {
+        width: 800px;
+        margin-left: 284px;
+    }
+    .text {
+        font-size: 16pt;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .chevron .back {
+        font-size: 26pt;
+    }
+    .text-header {
+        font-size: 20pt;
+    }
+    .calender span {
+        margin-left: 25px;
+        font-size: 23pt;
+    }
+    .block {
+        width: 130px;
+        height: 70px;
+        border-radius: 6px;
+    }
+    .block span {
+        font-size: 20pt;
+        font-weight: 700;
+    }
+    .block .fa {
+        font-size: 16pt;
+    }
+    .progress-text {
+        left: 444px;
+        top: 32px;
+        font-size: 18pt;
+    }
+    .grade {
+        width: 800px;
+        margin-left: 390px;
+    }
+    .text {
+        font-size: 16pt;
+    }
+}

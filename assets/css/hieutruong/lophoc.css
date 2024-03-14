@@ -1,0 +1,79 @@
+.chevron {
+    flex: 0 0 auto;
+}
+.chevron .back {
+    color: #000;
+    font-size: 20pt;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.card {
+    background: #fff;
+}
+.text-header {
+    color: #009CD6;
+    font-weight: 700;
+    font-size: 13pt;
+}
+
+/* Start content */
+.ttchinh {
+    background: #C8E9F0;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.ttchinh:hover{
+    opacity: 80%;
+}
+.img-ava {
+    border-radius: 50%;
+    margin-top: 7px;
+}
+.heading1{
+    font-weight: 700;
+    margin-top: 5px;
+}
+.heading1 p {
+    margin-bottom: 0;
+}
+.text {
+    position: relative;
+    top: 10px;
+}
+/* End content */
+
+@media screen and (min-width:767px) {
+    .chevron .back {
+        font-size: 26pt;
+    }
+    .text-header {
+        font-size: 22pt;
+    }
+    .check-btn {
+        width: 150px;
+        height: 40px;
+    }
+    .check-btn i {
+        font-size: 15pt;
+        font-weight: 400;
+    }
+    .img-ava {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 70px;
+    }
+    .heading1{
+        font-size: 18pt;
+    }
+    .heading2 {
+        font-size: 16pt;
+    }
+    .text {
+        font-size: 18pt;
+        position: relative;
+        top: 20px;
+    }
+}

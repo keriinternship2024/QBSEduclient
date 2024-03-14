@@ -1,0 +1,262 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.card {
+    background: #fff;
+}
+.text-header {
+    color: #009CD6;
+    font-weight: 700;
+    font-size: 13pt;
+}
+.calender {
+    border: none;
+    width: 40%;
+    background: #009CD6;
+    color: #fff;
+    border-radius: 6px;
+}
+.chevron {
+    flex: 0 0 auto;
+}
+.chevron .back {
+    color: #000;
+    font-size: 20pt;
+}
+.calender .fa {
+    font-size: 14pt;
+    font-weight: 700;
+}
+.calender span {
+    margin-left: 15px;
+    font-size: 15pt;
+}
+
+/* Start block grade */
+.grade {
+    width: 350px; 
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    white-space: nowrap;
+    margin-top: 15px;
+}
+.block {
+    display: flex;
+    width: 80px;
+    height: 50px;
+    background-color: #f6f0f0;
+    margin-right: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border: none;
+}
+.block-1 {
+    background-color: #a0a0a0;
+    display: flex;
+    width: 80px;
+    height: 50px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border: none;
+}
+/* End block grade */
+
+/* Start attendance */
+.attendance {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.text {
+    margin-top: 5px;
+    width: 240px;
+    font-size: 11pt;
+}
+.check-btn {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    background: #009CD6;
+    color: #fff;
+    border-radius: 5px;
+}
+.check-btn i {
+    font-size: 13pt;
+    font-weight: 700;
+}
+/* End attendance */
+
+/* Start content */
+.ttchinh {
+    background: #C8E9F0;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.ttchinh:hover{
+    opacity: 80%;
+}
+.img-ava {
+    border-radius: 50%;
+    margin-top: 7px;
+}
+.heading1{
+    font-weight: 700;
+    margin-top: 5px;
+}
+/* End content */
+
+/* StartFooter */
+a {
+    color: #ccc;
+}
+footer {
+    background-color: #fff;
+    color: #ccc;
+    padding: 20px 20px 0px 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    text-align: center;
+    cursor: pointer;
+}
+.icon .fa {
+    font-size: 18pt;
+}
+.icon-text {
+    display: block;
+    margin-top: 5px;
+    opacity: 0;
+    /* initially hide text */
+}
+.icon.active .icon-text {
+    opacity: 1;
+}
+.special {
+    color: #0565AF;
+    font-weight: 700;
+}
+/* End Footer */
+
+@media screen and (min-width:767px) {
+    .text-header {
+        font-size: 22pt;
+    }
+    .calender .fa {
+        font-size: 18pt;
+    }
+    .calender span {
+        font-size: 20pt;
+    }
+    .grade {
+        width: 900px;
+        margin-left: 10px;
+    }
+    .block,
+    .block-1 {
+        width: 135px;
+        height: 80px;
+        font-size: 18pt;
+    }
+    .text {
+        width: 400px;
+        font-size: 16pt;
+    }
+    .check-btn {
+        width: 150px;
+        height: 40px;
+    }
+    .check-btn i {
+        font-size: 18pt;
+    }
+    .img-ava {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 70px;
+    }
+    .heading1{
+        font-size: 18pt;
+    }
+    .heading2 {
+        font-size: 16pt;
+    }
+    footer {
+        padding: 20px 60px 10px 60px;
+    }
+    .icon .fa {
+        font-size: 30pt;
+    }
+    .icon-text {
+        font-size: 18pt;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .text-header {
+        font-size: 22pt;
+    }
+    .calender .fa {
+        font-size: 18pt;
+    }
+    .calender span {
+        font-size: 20pt;
+    }
+    .grade {
+        width: 900px;
+        margin-left: 10px;
+    }
+    .block,
+    .block-1 {
+        width: 135px;
+        height: 80px;
+        font-size: 18pt;
+    }
+    .text {
+        width: 400px;
+        font-size: 18pt;
+    }
+    .check-btn {
+        width: 150px;
+        height: 40px;
+    }
+    .check-btn i {
+        font-size: 18pt;
+    }
+    .img-ava {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 70px;
+    }
+    .heading1{
+        font-size: 18pt;
+    }
+    .heading2 {
+        font-size: 16pt;
+    }
+    footer {
+        padding: 20px 60px 10px 60px;
+    }
+    .icon .fa {
+        font-size: 30pt;
+    }
+    .icon-text {
+        font-size: 18pt;
+    }
+}

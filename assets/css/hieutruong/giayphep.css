@@ -1,0 +1,159 @@
+.chevron {
+    flex: 0 0 auto;
+}
+.chevron .back {
+    color: #000;
+    font-size: 20pt;
+}
+.header {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.card {
+    background: #fff;
+}
+.text-header {
+    color: #009CD6;
+    font-weight: 700;
+    font-size: 13pt;
+    margin-left: 25px;
+}
+
+/* Start content */
+.ttchinh {
+    background: #C8E9F0;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.ttchinh:hover{
+    opacity: 80%;
+}
+.img-ava {
+    margin-top: 10px;
+}
+.heading1{
+    font-weight: 700;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading2{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading3{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading3 p {
+    color: #746f6f;
+    font-size: 12pt;
+}
+.heading1 p,
+.heading2 p {
+    margin-bottom: 0;
+    font-size: 12pt;
+}
+.iconn {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+}
+.iconn .fa {
+    position: relative;
+    top: 7px;
+    left: 8px;
+}
+/* End content */
+
+@media screen and (min-width:767px) {
+    .chevron .back {
+        font-size: 26pt;
+    }
+    .text-header {
+        font-size: 22pt;
+    }
+    .text {
+        width: 400px;
+        font-size: 15pt;
+    }
+    .check-btn {
+        width: 150px;
+        height: 40px;
+    }
+    .check-btn i {
+        font-size: 15pt;
+        font-weight: 400;
+    }
+    .img-ava {
+        margin-top: 15px;
+        position: relative;
+        left: 5px;
+        width: 70px;
+    }
+    .heading1 p,
+    .heading2 p,
+    .heading3 p{
+        font-size: 18pt;
+    }
+    .iconn {
+        width: 50px;
+        height: 50px;
+        top: 40px;
+        left: 30px;
+    }
+    .iconn .fa {
+        font-size: 18pt;
+        left: 13px;
+        top: 10px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .chevron .back {
+        font-size: 26pt;
+    }
+    .text-header {
+        font-size: 22pt;
+    }
+    .text {
+        width: 400px;
+        font-size: 15pt;
+    }
+    .check-btn {
+        width: 150px;
+        height: 40px;
+    }
+    .check-btn i {
+        font-size: 15pt;
+        font-weight: 400;
+    }
+    .img-ava {
+        margin-top: 15px;
+        position: relative;
+        left: 5px;
+        width: 70px;
+    }
+    .heading1 p,
+    .heading2 p,
+    .heading3 p{
+        font-size: 18pt;
+    }
+    .iconn {
+        width: 50px;
+        height: 50px;
+        top: 40px;
+        left: 30px;
+    }
+    .iconn .fa {
+        font-size: 18pt;
+        left: 13px;
+        top: 10px;
+    }
+}

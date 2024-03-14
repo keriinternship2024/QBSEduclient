@@ -1,0 +1,102 @@
+.head_dautrang {
+    background: #fff;
+}
+.card {
+    background: #fff;
+}
+.dieuhuong {
+    display: flex;
+}
+
+.chevron {
+    flex: 0 0 auto; /* Phần tử này không được co giãn */
+}
+
+.thongbao {
+    flex: 1; /* Phần tử này sẽ chiếm phần còn lại của không gian trống */
+    text-align: center; /* Canh giữa nội dung của phần tử */
+}
+  
+.back{
+    font-size: 18pt;
+    font-weight: 600;
+}
+.thongbao p{
+    margin-top: 4px;
+    color: #009CD6;
+   font-weight: 600;
+   font-size: 12pt;
+}
+.ttkq{
+    margin-left: -16px;
+    font-size: 9pt;
+}
+.ttkq p{
+    padding:0;
+    margin:0;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+}
+.iconn{
+    margin-right: -45px;
+}
+.ttchinh{
+    margin:0px;
+    padding:0px;
+    background: rgba(245, 207, 157, 0.818);
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+.heading1{
+    font-weight: 700;
+}
+.tgian{
+    color: rgb(133, 133, 133);
+    font-size: 8pt;
+}
+.ttchinh2{
+    margin:0px;
+    padding:0px;
+    background: rgba(188, 228, 237, 0.818);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.ttchinh2:hover{
+    margin:0px;
+    padding:0px;
+    background: rgba(188, 228, 237, 0.818);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    opacity: 80%;
+}
+.ttchinh:hover{
+    margin:0px;
+    padding:0px;
+    background: rgba(245, 207, 157, 0.818);
+    border-radius: 5px;
+    margin-bottom: 7px;
+    opacity: 80%;
+}
+.chevron a{
+    color: black;
+}
+
+@media screen and (min-width:767px) {
+    .ttkq {
+        font-size: 17pt;
+    }
+    .tgian {
+        font-size: 15pt;
+    }
+    .thongbao p{
+        font-size: 18pt;
+    }
+    .back {
+        font-size: 30pt;
+    }
+    .search {
+        font-size: 25pt;
+    }
+}

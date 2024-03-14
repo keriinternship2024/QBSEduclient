@@ -1,0 +1,395 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.card {
+    background: #fff;
+}
+.text-header {
+    color: #009CD6;
+    font-weight: 400;
+    font-size: 13pt;
+}
+.calender {
+    border: none;
+    width: 40%;
+    background: #009CD6;
+    color: #fff;
+    border-radius: 6px;
+}
+.calender .fa {
+    font-size: 14pt;
+    font-weight: 700;
+}
+.calender span {
+    margin-left: 15px;
+    font-size: 16pt;
+}
+
+/* Start Banner */
+.banner {
+    margin-top: 15px;
+}
+.banner-bg {
+    background: rgba(250, 133, 90, 0.534);
+    border-radius: 18px;
+    height: 215px;
+}
+.banner-description {
+    display: flex;
+    justify-content: space-around;
+}
+.total {
+    margin-top: 40px;
+    width: 90px;
+    height: 90px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 50%;
+}
+.attendance {
+    margin-top: 30px;
+    width: 110px;
+    height: 110px;
+    padding: 30px 0 0 0;
+    background: #fff;
+    color: #009CD6;
+    border-radius: 50%;
+}
+.absent {
+    margin-top: 40px;
+    width: 90px;
+    height: 90px;
+    padding: 15px;
+    background: #fff;
+    color: #ff0000;
+    border-radius: 50%;
+}
+.progress-text {
+    position: relative;
+    top: 30px;
+    left: 185px;
+    color: #fff;
+    font-size: 14pt;
+    font-weight: 400;
+}
+.progress2 {
+    padding: 6px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+        0 1px rgba(255, 255, 255, 0.08);
+}
+.progress-bar2 {
+    height: 18px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.3),
+            rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+.progress-moved .progress-bar2 {
+    /* width: 5%; */
+    background-color: #ef476f;
+    animation: progressAnimation 2s;
+}
+@keyframes progressAnimation {
+    0% {
+        width: 0%;
+        background-color: #f9bcca;
+    }
+    100% {
+        width: 100%;
+        background-color: #ef476f;
+    }
+}
+/* End Banner */
+
+/* Start block grade */
+.grade {
+    width: 350px; 
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    white-space: nowrap;
+    margin-top: 15px;
+}
+.block {
+    display: flex;
+    width: 80px;
+    height: 50px;
+    background-color: #f6f0f0;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.block:focus {
+    background: #fff;
+    outline: none;
+}
+/* End block grade */
+
+/* Start class */
+.class-block {
+    margin-top: 15px;
+    height: 90px;
+}
+.class-block-bg {
+    background: #CBFFFB;
+    border-radius: 12px;
+}
+.class-block-1 {
+    margin-top: 15px;
+    height: 90px;
+}
+.class-block-bg1 {
+    background: #f2efef;
+    border-radius: 12px;
+}
+.conten_tienich {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.class-text {
+    position: absolute;
+    top: 15px;
+    left: 24px;
+    color:black;
+}
+.class-ava img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+svg {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+.circular-progress {
+    --size: 250px;
+    --half-size: calc(var(--size) / 2);
+    --stroke-width: 20px;
+    --radius: calc((var(--size) - var(--stroke-width)) / 2);
+    --circumference: calc(var(--radius) * pi * 2);
+    --dash: calc((var(--progress) * var(--circumference)) / 100);
+    animation: progress-animation 1s linear 0s 1 forwards;
+}
+.circular-progress-1 {
+    --size: 250px;
+    --half-size: calc(var(--size) / 2);
+    --stroke-width: 20px;
+    --radius: calc((var(--size) - var(--stroke-width)) / 2);
+    --circumference: calc(var(--radius) * pi * 2);
+    --dash: calc((var(--progress) * var(--circumference)) / 100);
+    animation: progress-animation-1 1s linear 0s 1 forwards;
+}
+.circular-progress circle,
+.circular-progress-1 circle {
+    cx: var(--half-size);
+    cy: var(--half-size);
+    r: var(--radius);
+    stroke-width: var(--stroke-width);
+    fill: none;
+    stroke-linecap: round;
+}
+.circular-progress circle.bg,
+.circular-progress-1 circle.bg {
+    stroke: #ddd;
+}
+.circular-progress circle.fg {
+    transform: rotate(-90deg);
+    transform-origin: var(--half-size) var(--half-size);
+    stroke-dasharray: var(--dash) calc(var(--circumference) - var(--dash));
+    transition: stroke-dasharray 0.3s linear 0s;
+    stroke: #5394fd;
+}
+.circular-progress-1 circle.fg {
+    transform: rotate(-90deg);
+    transform-origin: var(--half-size) var(--half-size);
+    stroke-dasharray: var(--dash) calc(var(--circumference) - var(--dash));
+    transition: stroke-dasharray 0.3s linear 0s;
+    stroke: #fdb328;
+}
+.none-icon{
+    color: black;
+    margin-right: 6px;
+}
+.red-icon{
+    color:red;
+    margin-right: 6px;
+}
+.xiso{
+    margin-left: 5px;
+}
+@property --progress {
+    syntax: "<number>";
+    inherits: false;
+    initial-value: 0;
+}
+@keyframes progress-animation {
+    from {
+        --progress: 0;
+    }
+
+    to {
+        --progress: 100;
+    }
+}
+@keyframes progress-animation-1 {
+    from {
+        --progress: 0;
+    }
+
+    to {
+        --progress: 80;
+    }
+}
+/* End class */
+
+/* StartFooter */
+a {
+    color: #ccc;
+}
+footer {
+    background-color: #fff;
+    color: #ccc;
+    padding: 20px 20px 0px 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    text-align: center;
+    cursor: pointer;
+}
+.icon .fa {
+    font-size: 18pt;
+}
+.icon-text {
+    display: block;
+    margin-top: 5px;
+    opacity: 0;
+    /* initially hide text */
+}
+.icon.active .icon-text {
+    opacity: 1;
+}
+.special {
+    color: #0565AF;
+    font-weight: 700;
+}
+/* End Footer */
+
+/* Chỉnh Media Ipad Mini và Ipad Air */
+@media screen and (min-width:767px) {
+    .text-header {
+        font-size: 20pt;
+        font-weight: 700;
+    }
+    .calender span {
+        margin-left: 25px;
+        font-size: 23pt;
+    }
+    .total, .absent {
+        width: 110px;
+        height: 110px;
+    }
+    .attendance {
+        width: 150px;
+        height: 150px;
+    }
+    .total p, .total b, .attendance p, .attendance b, .absent p, .absent b {
+        font-size: 15pt;
+    }
+    .progress-text {
+        left: 310px;
+        top: 32px;
+        font-size: 18pt;
+    }
+    .grade {
+        width: 800px;
+        margin-left: -10px;
+    }
+    .block {
+        width: 120px;
+        height: 60px;
+        font-size: 18pt;
+    }
+    .class-block, .class-block-1 {
+        height: 100px;
+    }
+    .banner-bg {
+        height: 270px;
+    }
+    footer {
+        padding: 20px 60px 10px 60px;
+    }
+    .icon .fa {
+        font-size: 30pt;
+    }
+    .icon-text {
+        font-size: 18pt;
+    }
+}
+/* Chỉnh Media Ipad Pro */
+@media screen and (min-width:1024px) {
+    .text-header {
+        font-size: 20pt;
+    }
+    .calender span {
+        margin-left: 25px;
+        font-size: 23pt;
+    }
+    .total, .absent {
+        width: 110px;
+        height: 110px;
+    }
+    .attendance {
+        width: 150px;
+        height: 150px;
+    }
+    .total p, .total b, .attendance p, .attendance b, .absent p, .absent b {
+        font-size: 15pt;
+    }
+    .progress-text {
+        left: 444px;
+        top: 32px;
+        font-size: 18pt;
+    }
+    .grade {
+        width: 800px;
+        margin-left: 110px;
+    }
+    .block {
+        width: 120px;
+        height: 60px;
+        font-size: 18pt;
+    }
+    .class-block, .class-block-1 {
+        height: 100px;
+    }
+    .banner-bg {
+        height: 270px;
+    }
+    footer {
+        padding: 20px 60px 10px 60px;
+    }
+    .icon .fa {
+        font-size: 30pt;
+    }
+    .icon-text {
+        font-size: 18pt;
+    }
+}

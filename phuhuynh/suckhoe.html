@@ -1,0 +1,231 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- <link rel="apple-touch-icon" sizes="76x76" href="templates/siteground-j15-158/assets/img/apple-icon.png">
+         <link rel="shortcut icon" href="templates/siteground-j15-158/images/qtscImg/qtsc_icon.png" type="image/x-icon">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+        name='viewport' />
+    <!-- Extra details for Live View on GitHub Pages -->
+    <!-- Canonical SEO -->
+    <link rel="canonical" href="" />
+    <!--  Social tags      -->
+    <meta name="keywords" content="Phần mềm quản lý học viên QBSedu">
+    <meta name="description" content="Phần mềm quản lý học viên QBSedu">
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Phần mềm quản lý học viên QBSedu">
+    <meta itemprop="description" content="Phần mềm quản lý học viên QBSedu">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="product">
+    <meta name="twitter:site" content="@keri">
+    <meta name="twitter:title" content="Phần mềm quản lý học viên QBSedu">
+    <meta name="twitter:description" content="Phần mềm quản lý học viên QBSedu">
+    <meta name="twitter:creator" content="@keri">
+    <!-- Open Graph data -->
+    <meta property="fb:app_id" content="655968634437471">
+    <meta property="og:title" content="Phần mềm quản lý học viên QBSedu" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta property="og:description" content="Phần mềm quản lý học viên QBSedu" />
+    <meta property="og:site_name" content="Keri" />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <!-- CSS Files -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/demo/demo.css" rel="stylesheet" />
+    <link href="../assets/css/now-ui-dashboard.minaa26.css?v=1.5.0" rel="stylesheet" />
+
+    <script type='text/javascript' src='https://code.jquery.com/jquery-3.5.1.js'></script>
+    <!--     Fonts and icons     -->
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://use.fontawesome.com/5430ef00bc.js"></script>
+    <title>QBSEdu - Giải pháp giáo dục</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+    <link rel="stylesheet" href="../assets/css/phuhuynh/suckhoe.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0/dist/chartjs-plugin-datalabels.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Thanh head đầu trang -->
+        <div class="card">
+            <div class="head_dautrang"></div>
+            <div class="head_dautrang1" style="height: 44px;"></div>
+
+            <div class="container">
+                <!-- Header -->
+                <div class="header">
+                    <a href="./home.html"><i class="fa fa-angle-left back"><span class="text-header">&nbsp;&nbsp;Sổ sức
+                                khoẻ</span></i> </a>
+                    <button class="calender"><i class="fa fa-calendar"><span>03/2024</span></i></button>
+                </div>
+
+                <!-- -->
+                <div class="chieucao" style="    margin-top: 18px;">
+                    <span><img src="../assets/img/Tall Person.png"> Chiều cao</span>
+                </div>
+                <div style="width: 100%; height: 200px;">
+                    <canvas id="myChart1" style="width:100%;height:300px"></canvas>
+                </div>
+                <!--  -->
+                <div class="chieucao">
+                    <span><img src="../assets/img/Scale.png"> Cân nặng</span>
+                </div>
+                <div style="width: 100%; height: 200px;">
+                    <canvas id="myChart2" style="width:100%;height:300px"></canvas>
+                </div>
+                <!--  -->
+                <div>
+                    <div class="iconn1">
+                        <span><img src="../assets/img/BMI.png"> Chỉ số BMI</span><span style="color: #ccc;"> (kg/m2)</span>
+                    </div>
+                    <div class="iconn1">
+                        <span><img src="../assets/img/Hypertension.png"> Huyết áp tầm thu</span><span style="color: #ccc;"> (mmHg)</span>
+                    </div>
+                    <div class="iconn1">
+                        <span><img src="../assets/img/Hypertension.png"> Huyết áp tầm trương</span><span style="color: #ccc;"> (mmHg)</span>
+                    </div>
+                    <div class="iconn1">
+                        <span><img src="../assets/img/Heart with Pulse.png"> Nhịp tim</span><span style="color: #ccc;"> (Lần/phút)</span>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="filedinhkem">
+                    <i class="fa fa-paperclip"></i>
+                    <p>Không có file đính kèm
+                </div>
+            </div>
+        </div>
+        <script>
+            Chart.register(ChartDataLabels);
+            const ctx = document.getElementById('myChart1');
+
+            const data = {
+                labels: ['T10', 'T11', 'T12', 'T1', 'T2', 'T3'],
+                datasets: [{
+                    label: 'Chiều cao',
+                    data: [0, 3, 0, 0, 0, 0], // Dữ liệu cho cột 1
+                    backgroundColor: 'red',
+                    borderWidth: 1,
+                    borderColor: 'black',
+                    hoverBorderWidth: 3,
+                    hoverBorderColor: '#000',
+                    font: {
+                        weight: 'bold',
+                        size: 12,
+                    },
+                },
+                {
+                    label: 'TB lớp',
+                    data: [0, 3.5, 0, 0, 0, 0], // Dữ liệu cho cột 2
+                    backgroundColor: 'blue',
+                    borderWidth: 1,
+                    borderColor: 'black',
+                    hoverBorderWidth: 3,
+                    hoverBorderColor: '#000',
+                    font: {
+                        weight: 'bold',
+                        size: 12,
+                    },
+                }]
+            };
+
+            const options = {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            display: false
+                        }
+                    }]
+                },
+                maintainAspectRatio: false,
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        display: false,
+                    }
+                }
+            };
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: data,
+                options: options
+            });
+
+        </script>
+        <script>
+            Chart.register(ChartDataLabels);
+            const ctx1 = document.getElementById('myChart2');
+
+            const data1 = {
+                labels: ['T10', 'T11', 'T12', 'T1', 'T2', 'T3'],
+                datasets: [{
+                    label: 'Cân nặng',
+                    data: [0, 3, 0, 0, 0, 0], // Dữ liệu cho cột 1
+                    backgroundColor: 'red',
+                    borderWidth: 1,
+                    borderColor: 'black',
+                    hoverBorderWidth: 3,
+                    hoverBorderColor: '#000',
+                    font: {
+                        weight: 'bold',
+                        size: 12,
+                    },
+                },
+                {
+                    label: 'TB Lớp',
+                    data: [0, 3.5, 0, 0, 0, 0], // Dữ liệu cho cột 2
+                    backgroundColor: 'blue',
+                    borderWidth: 1,
+                    borderColor: 'black',
+                    hoverBorderWidth: 3,
+                    hoverBorderColor: '#000',
+                    font: {
+                        weight: 'bold',
+                        size: 12,
+                    },
+                }]
+            };
+
+            const options1 = {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            display: false
+                        }
+                    }]
+                },
+                maintainAspectRatio: false,
+                responsive: true,
+                plugins: {
+                    datalabels: {
+                        display: false,
+                    }
+                }
+            };
+
+            new Chart(ctx1, {
+                type: 'bar',
+                data: data1,
+                options: options1
+            });
+
+        </script>
+
+</body>
+
+</html>

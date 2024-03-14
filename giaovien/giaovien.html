@@ -1,0 +1,238 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- <link rel="apple-touch-icon" sizes="76x76" href="templates/siteground-j15-158/assets/img/apple-icon.png">
+         <link rel="shortcut icon" href="templates/siteground-j15-158/images/qtscImg/qtsc_icon.png" type="image/x-icon">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+        name='viewport' />
+    <!-- Extra details for Live View on GitHub Pages -->
+    <!-- Canonical SEO -->
+    <link rel="canonical" href="" />
+    <!--  Social tags      -->
+    <meta name="keywords" content="Phần mềm quản lý học viên QBSedu">
+    <meta name="description" content="Phần mềm quản lý học viên QBSedu">
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Phần mềm quản lý học viên QBSedu">
+    <meta itemprop="description" content="Phần mềm quản lý học viên QBSedu">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="product">
+    <meta name="twitter:site" content="@keri">
+    <meta name="twitter:title" content="Phần mềm quản lý học viên QBSedu">
+    <meta name="twitter:description" content="Phần mềm quản lý học viên QBSedu">
+    <meta name="twitter:creator" content="@keri">
+    <!-- Open Graph data -->
+    <meta property="fb:app_id" content="655968634437471">
+    <meta property="og:title" content="Phần mềm quản lý học viên QBSedu" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta property="og:description" content="Phần mềm quản lý học viên QBSedu" />
+    <meta property="og:site_name" content="Keri" />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <!-- CSS Files -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/demo/demo.css" rel="stylesheet" />
+    <link href="../assets/css/now-ui-dashboard.minaa26.css?v=1.5.0" rel="stylesheet" />
+
+    <script type='text/javascript' src='https://code.jquery.com/jquery-3.5.1.js'></script>
+    <!--     Fonts and icons     -->
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://use.fontawesome.com/5430ef00bc.js"></script>
+    <title>QBSEdu - Giải pháp giáo dục</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+    <link rel="stylesheet" href="../assets/css/giaovien/giaovien.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Nội dung ở đây -->
+        <div class="card">
+            <div class="head_dautrang"></div>
+            <div class="head_dautrang1" style="height: 44px;"></div>
+            <div class="container">
+                <!-- Header -->
+                
+                <div class="headerr">
+                    <div class="chevron">
+                        <a href="./home.html">
+                            <i class="fa fa-angle-left back"></i>
+                        </a>
+                    </div>
+                    <p class="text-headerr">Điểm Danh Giáo Viên</p>
+                    
+                </div>
+                <!--  -->
+                <div class="header">
+                    <div class="teacher-title">
+                        <p>Nguyễn Giáo Viên A</p>
+                    </div>
+                    <div class="calendar_1">
+                        <h3></h3>
+                    </div>
+                </div>
+                <!-- Lịch -->
+                <div class="calendar">
+                    <header>
+                        <h3></h3>
+                        <nav>
+                            <button id="prev"></button>
+                            <button id="next"></button>
+                        </nav>
+                    </header>
+                    <section>
+                        <ul class="days">
+                            <li>Sun</li>
+                            <li>Mon</li>
+                            <li>Tue</li>
+                            <li>Wed</li>
+                            <li>Thu</li>
+                            <li>Fri</li>
+                            <li>Sat</li>
+                        </ul>
+                        <ul class="dates"></ul>
+                    </section>
+                </div>
+                <!-- Text -->
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <div class="img-text">
+                        <img src="../assets/img/checkin-report.png">
+                    </div>
+                    <div class="text">
+                        <p>Chọn ngày có điểm danh trên để xem chi tiết</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <footer>
+                <div class="footer-icons">
+                    <div class="icon" onclick="activateIcon(this)">
+                        <a href="./home.html" class="icon">
+                            <i class="fa fa-home"></i>
+                            <span class="icon-text">Home</span>
+                        </a>
+                    </div>
+                    <div class="icon" onclick="activateIcon(this)">
+                        <a href="./baocao.html" class="icon">
+                            <i class="fa fa-line-chart"></i>
+                            <span class="icon-text">Báo cáo</span>
+                        </a>
+                    </div>
+                    <div class="icon active special" onclick="activateIcon(this)">
+                        <a href="./giaovien.html" class="icon active special">
+                            <i class="fa fa-calendar"></i>
+                            <span class="icon-text">Giáo viên</span>
+                        </a>
+                    </div>
+                    <div class="icon" onclick="activateIcon(this)">
+                        <a href="./diemdanhhocsinh.html" class="icon">
+                            <i class="fa fa-check-square"></i>
+                            <span class="icon-text">Học sinh</span>
+                        </a>
+                    </div>
+                    <div class="icon" onclick="activateIcon(this)">
+                        <a href="./caidat.html" class="icon">
+                            <i class="fa fa-cog"></i>
+                            <span class="icon-text">Cài đặt</span>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+<script>
+    const header = document.querySelector(".calendar h3");
+    const header_1 = document.querySelector(".calendar_1 h3");
+    const dates = document.querySelector(".dates");
+    const navs = document.querySelectorAll("#prev, #next");
+
+    const months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ];
+
+    let date = new Date();
+    let month = date.getMonth();
+    let year = date.getFullYear();
+
+    function renderCalendar() {
+        const start = new Date(year, month, 1).getDay();
+        const endDate = new Date(year, month + 1, 0).getDate();
+        const end = new Date(year, month, endDate).getDay();
+        const endDatePrev = new Date(year, month, 0).getDate();
+
+        let datesHtml = "";
+
+        for (let i = start; i > 0; i--) {
+            datesHtml += `<li class="inactive">${endDatePrev - i + 1}</li>`;
+        }
+
+        for (let i = 1; i <= endDate; i++) {
+            let className =
+                i === date.getDate() &&
+                    month === new Date().getMonth() &&
+                    year === new Date().getFullYear()
+                    ? ' class="today"'
+                    : "";
+            datesHtml += `<li${className}>${i}</li>`;
+        }
+
+        for (let i = end; i < 6; i++) {
+            datesHtml += `<li class="inactive">${i - end + 1}</li>`;
+        }
+
+        dates.innerHTML = datesHtml;
+        header.textContent = `${months[month]} ${year}`;
+        header_1.textContent = `${months[month]} ${year}`;
+    }
+
+    navs.forEach((nav) => {
+        nav.addEventListener("click", (e) => {
+            const btnId = e.target.id;
+
+            if (btnId === "prev" && month === 0) {
+                year--;
+                month = 11;
+            } else if (btnId === "next" && month === 11) {
+                year++;
+                month = 0;
+            } else {
+                month = btnId === "next" ? month + 1 : month - 1;
+            }
+
+            date = new Date(year, month, new Date().getDate());
+            year = date.getFullYear();
+            month = date.getMonth();
+
+            renderCalendar();
+        });
+    });
+
+    renderCalendar();
+</script>
+
+</html>

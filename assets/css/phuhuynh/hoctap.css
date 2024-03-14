@@ -1,0 +1,426 @@
+.head_dautrang {
+    background: #fff;
+}
+
+.card {
+    background: #fff;
+}
+
+.dieuhuong {
+    display: flex;
+}
+
+.chevron {
+    flex: 0 0 auto;
+    /* Phần tử này không được co giãn */
+}
+
+.thongbao {
+    flex: 1;
+    /* Phần tử này sẽ chiếm phần còn lại của không gian trống */
+    text-align: center;
+    /* Canh giữa nội dung của phần tử */
+}
+
+.back {
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+.thongbao p {
+    margin-top: 4px;
+    color: #009CD6;
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+.ttkq {
+    margin-left: -16px;
+    font-size: 9pt;
+}
+
+.ttkq p {
+    padding: 0;
+    margin: 0;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconn {
+    margin-right: -45px;
+}
+
+.ttchinh {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(245, 207, 157, 0.818);
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+
+.heading1 {
+    font-weight: 700;
+}
+
+.tgian {
+    color: rgb(133, 133, 133);
+    font-size: 8pt;
+}
+
+.ttchinh2 {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(188, 228, 237, 0.818);
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+.ttchinh2:hover {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(188, 228, 237, 0.818);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    opacity: 80%;
+}
+
+.ttchinh:hover {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(245, 207, 157, 0.818);
+    border-radius: 5px;
+    margin-bottom: 7px;
+    opacity: 80%;
+}
+
+.chevron a {
+    color: black;
+}
+
+.thoigian {
+    background: rgb(255, 251, 251);
+    border-radius: 50px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+.thoigian p {
+    margin: 0;
+}
+
+.thoigian1 {
+    font-size: 16px;
+}
+
+.thoigian3 {
+    font-size: 8pt;
+}
+
+.thoigian3 p {
+    font-size: 10pt;
+    margin-bottom: 0rem;
+    margin-left: -2px;
+}
+
+/* Start banner-school */
+.banner-school {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: #82d7e5;
+    border-radius: 11px;
+}
+
+.card .container .banner {
+    padding-top: 0.5rem;
+}
+
+.card .container .banner {
+    width: 100%;
+    height: 150px;
+    border-radius: 18px;
+    position: relative;
+}
+
+.card .description {
+    position: absolute;
+    display: flex;
+}
+
+.card .avatar {
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+}
+
+.card .avatar-1 {
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+}
+
+.title-description {
+    margin-top: 2px;
+    color: black;
+}
+
+.title-description p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.hocky {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hocky1 button,
+.hocky2 button,
+.canam button {
+    background-color: #ffffff;
+    padding: 0px 5px;
+    margin: 0 37px;
+    transition: background-color 0.3s;
+    border: 0px;
+    font-size: 9pt;
+    margin-top: -25px;
+    border-radius: 7px;
+}
+
+.hocky1 button:hover {
+    background-color: #f0f0f0;
+}
+
+.hocky2 button:hover {
+    background-color: #f0f0f0;
+}
+
+.canam button:hover {
+    background-color: #f0f0f0;
+}
+
+/* End banner-school */
+
+/* StartFooter */
+a {
+    color: #ccc;
+}
+
+footer {
+    background-color: #fff;
+    color: #ccc;
+    padding: 20px 20px 0px 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon .fa {
+    font-size: 18pt;
+}
+
+.icon-text {
+    display: block;
+    margin-top: 5px;
+    opacity: 0;
+    /* initially hide text */
+}
+
+.icon.active .icon-text {
+    opacity: 1;
+}
+
+.special {
+    color: #0565AF;
+    font-weight: 700;
+}
+
+@media screen and (min-width:767px) {
+    footer {
+        padding: 20px 60px 10px 60px;
+    }
+
+    .icon .fa {
+        font-size: 30pt;
+    }
+
+    .icon-text {
+        font-size: 18pt;
+    }
+}
+
+/* End Footer */
+/* End header */
+@media screen and (min-width:767px) {
+    .ttkq {
+        font-size: 17pt;
+    }
+
+    .tgian {
+        font-size: 15pt;
+    }
+
+    .thongbao p {
+        font-size: 18pt;
+    }
+
+    .back {
+        font-size: 30pt;
+    }
+
+    .search {
+        font-size: 25pt;
+    }
+
+    .thoigian {
+        margin-top: 10px;
+        width: 55px;
+        height: 55px;
+        margin-left: 8px;
+    }
+
+    .thoigian p {
+        margin: 0;
+        font-size: 25pt;
+    }
+
+    .thoigian1 {
+        font-size: 16px;
+    }
+
+    .thoigian3 {
+        font-size: 8pt;
+    }
+
+    .thoigian3 p {
+        font-size: 20pt;
+        margin-bottom: 0rem;
+        margin-left: 2px;
+    }
+
+    .card .container .banner {
+        width: 100%;
+        height: 300px;
+        border-radius: 18px;
+        position: relative;
+    }
+
+    .card .avatar {
+        width: 70px;
+        height: 70px;
+        margin: 25px;
+    }
+
+    .card .container .title {
+        font-size: 20pt;
+    }
+
+    .card .container .text-header {
+        font-size: 16pt;
+    }
+
+    .card .container .img-header {
+        width: 66px;
+        height: 40px;
+    }
+
+    .title-description .title-1 {
+        margin: 20px 0 0 0;
+        font-size: 20pt;
+    }
+
+    .title-description .text-header-1 {
+        font-size: 16pt;
+    }
+
+    .description-gmail {
+        border-radius: 10px;
+        margin: 240px 0px 0px 20px;
+    }
+
+    .description-icon {
+        margin: 8px 0 0 780px;
+        height: 290px;
+    }
+
+    .icon-description {
+        margin-top: 30px;
+        font-size: 29pt;
+    }
+
+    .banner-school {
+        display: flex;
+        width: 100%;
+        height: 150px;
+        background: #82d7e5;
+        border-radius: 11px;
+    }
+
+    .hocky1 button,
+    .hocky2 button,
+    .canam button {
+        background-color: #ffffff;
+        padding: 0px 0px;
+        margin: 0 67px;
+        transition: background-color 0.3s;
+        border: 0px;
+        font-size: 15pt;
+        margin-top: -40px;
+        border-radius: 10px;
+        width: 103px;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .thoigian {
+        margin-top: 10px;
+        width: 65px;
+        height: 55px;
+        margin-left: 23px;
+    }
+
+    .thoigian p {
+        margin: 0;
+        font-size: 25pt;
+    }
+
+    .thoigian1 {
+        font-size: 16px;
+    }
+
+    .thoigian3 {
+        font-size: 8pt;
+    }
+
+    .thoigian3 p {
+        font-size: 20pt;
+        margin-bottom: 0rem;
+        margin-left: 25px;
+    }
+    .hocky1 button, .hocky2 button, .canam button {
+        margin: 10px 113px;
+    }
+}

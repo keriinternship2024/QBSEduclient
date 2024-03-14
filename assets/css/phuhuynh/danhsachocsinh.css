@@ -1,0 +1,278 @@
+.head_dautrang {
+    background: #fff;
+}
+
+.card {
+    background: #fff;
+}
+
+.dieuhuong {
+    display: flex;
+    margin-top: 10px;
+}
+
+.chevron {
+    flex: 0 0 auto;
+    /* Phần tử này không được co giãn */
+    text-align: center;
+}
+
+.thongbao {
+    flex: 1;
+    /* Phần tử này sẽ chiếm phần còn lại của không gian trống */
+    text-align: center;
+    /* Canh giữa nội dung của phần tử */
+}
+
+.back {
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+.thongbao p {
+    color: #009CD6;
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+.search {
+    font-size: 15pt;
+}
+
+.ttkq {
+    margin-left: -38px;
+    font-size: 9pt;
+    margin-top: 12px;
+}
+
+.ttkq p {
+    padding: 0;
+    margin: 0;
+}
+
+.time {
+    font-size: 9pt;
+}
+
+.iconn {
+    display: flex;
+    margin-right: -65px;
+    width: 45px;
+}
+
+.ttchinh {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(245, 207, 157, 0.818);
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+
+.heading1 {
+    font-weight: 700;
+}
+
+.tgian {
+    color: rgb(133, 133, 133);
+    font-size: 8pt;
+}
+
+.ttchinh2 {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(188, 228, 237, 0.818);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.ttchinh2:hover {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(188, 228, 237, 0.818);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    opacity: 80%;
+}
+
+.ttchinh:hover {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(245, 207, 157, 0.818);
+    border-radius: 5px;
+    margin-bottom: 7px;
+    opacity: 80%;
+}
+
+.chevron a {
+    color: black;
+}
+
+.can2ben {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .avatar {
+    width: 36px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+
+.heading2 span img {
+    width: 15px;
+}
+
+/* banner */
+.gvchunhiem p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.gv {
+    font-size: 8pt;
+    color: #656565;
+}
+
+.gioitinh {
+    width: 30px;
+    display: flex;
+    align-items: baseline;
+}
+
+.board {
+    width: 63px;
+    display: flex;
+    align-items: baseline;
+}
+
+.banner1 {
+    background: rgb(31, 187, 214);
+    border-radius: 8px;
+}
+
+.banner2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 8px;
+    align-items: baseline;
+}
+
+/*  */
+/* StartFooter */
+a {
+    color: #ccc;
+}
+
+footer {
+    background-color: #fff;
+    color: #ccc;
+    padding: 20px 20px 0px 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon .fa {
+    font-size: 18pt;
+}
+
+.icon-text {
+    display: block;
+    margin-top: 5px;
+    opacity: 0;
+    /* initially hide text */
+}
+
+.icon.active .icon-text {
+    opacity: 1;
+}
+
+.special {
+    color: #0565AF;
+    font-weight: 700;
+}
+
+@media screen and (min-width:767px) {
+    footer {
+        padding: 20px 60px 10px 60px;
+    }
+
+    .icon .fa {
+        font-size: 30pt;
+    }
+
+    .icon-text {
+        font-size: 18pt;
+    }
+
+    
+}
+
+/* End Footer */
+@media screen and (min-width:767px) {
+    .ttkq {
+        font-size: 17pt;
+    }
+
+    .tgian {
+        font-size: 15pt;
+    }
+
+    .thongbao p {
+        font-size: 18pt;
+    }
+
+    .back {
+        font-size: 30pt;
+    }
+
+    .search {
+        font-size: 25pt;
+    }
+    .card .avatar {
+        width: 49px;
+        height: 48px;
+        margin-top: 0px;
+    }
+
+    .board {
+        width: 81px;
+    }
+
+    .board p {
+        font-size: 15pt;
+    }
+
+    .gioitinh {
+        width: 57px;
+
+    }
+
+    .gioitinh p {
+        font-size: 15pt;
+    }
+    .gv {
+        font-size: 13pt;
+    }
+    .gvchunhiem p {
+        font-size: 15pt;
+    }
+}

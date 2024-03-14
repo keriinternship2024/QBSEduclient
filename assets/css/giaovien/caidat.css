@@ -1,0 +1,275 @@
+.card {
+    background: #fff;
+}
+.dieuhuong {
+    display: flex;
+    margin-top: 10px;
+}
+.chevron {
+    flex: 0 0 auto;
+    /* Phần tử này không được co giãn */
+    text-align: center;
+}
+.thongbao {
+    flex: 1;
+    /* Phần tử này sẽ chiếm phần còn lại của không gian trống */
+    text-align: center;
+    /* Canh giữa nội dung của phần tử */
+}
+.back {
+    font-size: 18pt;
+    font-weight: 600;
+}
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+}
+.thongbao p {
+    color: #009CD6;
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+.search {
+    font-size: 15pt;
+}
+
+.ttkq {
+    margin-left: -16px;
+    font-size: 9pt;
+    margin-top: -14px;
+}
+
+.ttkq p {
+    padding: 0;
+    margin: 0;
+    color:black;
+}
+
+.time {
+    font-size: 8pt;
+}
+
+.iconn {
+    margin-right: -45px;
+    color:black;
+}
+
+.ttchinh {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(245, 207, 157, 0.818);
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+
+.heading1 {
+    font-weight: 600;
+}
+
+.tgian {
+    color: rgb(133, 133, 133);
+    font-size: 8pt;
+}
+
+.ttchinh2 {
+    margin-top: 20px;
+    padding: 0px;
+    border-radius: 5px;
+    margin-bottom: -25px;
+}
+
+.ttchinh2:hover {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(188, 228, 237, 0.818);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    opacity: 80%;
+}
+
+.ttchinh:hover {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(245, 207, 157, 0.818);
+    border-radius: 5px;
+    margin-bottom: 7px;
+    opacity: 80%;
+}
+
+.chevron a {
+    color: black;
+}
+
+.can2ben {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .avatar {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+
+.avatar img {
+    width: 41px;
+}
+
+.hinhhh img {
+    width: 120px;
+}
+
+.hosohocsinh {
+    background: rgb(226, 226, 226);
+    margin-top: -190px;
+    text-align: center;
+    height: 190px;
+    border-radius: 20px;
+}
+
+.tenvalop {
+    font-weight: 600;
+}
+
+.bangthongtin {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 10px;
+}
+.bangthongtin a{
+    padding: 10px;
+}
+/* StartFooter */
+a {
+    color: #ccc;
+}
+footer {
+    background-color: #fff;
+    color: #ccc;
+    padding: 20px 20px 0px 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    text-align: center;
+    cursor: pointer;
+}
+.icon .fa {
+    font-size: 18pt;
+}
+.icon-text {
+    display: block;
+    margin-top: 5px;
+    opacity: 0;
+    /* initially hide text */
+}
+.icon.active .icon-text {
+    opacity: 1;
+}
+.special {
+    color: #0565AF;
+    font-weight: 700;
+}
+/* End Footer */
+
+
+@media screen and (min-width:767px) {
+    .hosohocsinh {
+        height: 230px;
+    }
+    .tenvalop {
+        margin-top: 15px;
+        font-size: 18pt;
+    }
+    .title-description {
+        font-size: 16pt;
+    }
+    .ttkq {
+        font-size: 17pt;
+    }
+
+    .tgian {
+        font-size: 15pt;
+    }
+
+    .thongbao p {
+        font-size: 18pt;
+    }
+
+    .back {
+        font-size: 30pt;
+    }
+
+    .search {
+        font-size: 25pt;
+    }
+    footer {
+        padding: 20px 60px 10px 60px;
+    }
+    .icon .fa {
+        font-size: 30pt;
+    }
+    .icon-text {
+        font-size: 18pt;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .hosohocsinh {
+        height: 230px;
+    }
+    .tenvalop {
+        margin-top: 15px;
+        font-size: 18pt;
+    }
+    .title-description {
+        font-size: 16pt;
+    }
+    .ttkq {
+        font-size: 17pt;
+    }
+
+    .tgian {
+        font-size: 15pt;
+    }
+
+    .thongbao p {
+        font-size: 18pt;
+    }
+
+    .back {
+        font-size: 30pt;
+    }
+
+    .search {
+        font-size: 25pt;
+    }
+    footer {
+        padding: 20px 60px 10px 60px;
+    }
+    .icon .fa {
+        font-size: 30pt;
+    }
+    .icon-text {
+        font-size: 18pt;
+    }
+}

@@ -1,0 +1,228 @@
+.card {
+    background: #fff;
+}
+
+.dieuhuong {
+    display: flex;
+    margin-top: 10px;
+}
+
+.chevron {
+    flex: 0 0 auto;
+    /* Phần tử này không được co giãn */
+    text-align: center;
+}
+
+.thongbao {
+    flex: 1;
+    /* Phần tử này sẽ chiếm phần còn lại của không gian trống */
+    text-align: center;
+    /* Canh giữa nội dung của phần tử */
+}
+
+.back {
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.thongbao p {
+    color: #009CD6;
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+.search {
+    font-size: 15pt;
+}
+
+.ttkq {
+    margin-left: -16px;
+    font-size: 9pt;
+    margin-top: -14px;
+}
+/*  */
+.tenvalop p{
+    margin-top: 0;
+    margin-bottom: 0rem;
+    
+}
+.gvchunhiem p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+.diachi{
+    font-size: 9pt;
+    color: #565656;
+}
+
+.gv {
+    font-size: 9pt;
+    color: #565656;
+}
+.banner1 {
+    background: #7ad6e9;
+    border-radius: 8px;
+}
+/*  */
+.ttkq p {
+    padding: 0;
+    margin: 0;
+}
+
+.time {
+    font-size: 8pt;
+}
+
+.iconn {
+    margin-right: -45px;
+}
+
+.ttchinh {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(245, 207, 157, 0.818);
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+.content p{
+    margin-top: 0;
+    margin-bottom: 0rem;
+    font-size: 9pt;
+}
+
+
+.heading1 {
+    font-weight: 600;
+}
+
+.tgian {
+    color: rgb(133, 133, 133);
+    font-size: 8pt;
+}
+
+.ttchinh2 {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    margin-bottom: -25px;
+}
+
+.ttchinh2:hover {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(188, 228, 237, 0.818);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    opacity: 80%;
+}
+
+.ttchinh:hover {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(245, 207, 157, 0.818);
+    border-radius: 5px;
+    margin-bottom: 7px;
+    opacity: 80%;
+}
+
+.chevron a {
+    color: black;
+}
+
+.can2ben {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .avatar {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+
+.avatar img {
+    width: 41px;
+}
+
+.hinhhh img {
+    width: 120px;
+}
+
+.hosohocsinh {
+    background: rgb(226, 226, 226);
+    margin-top: -190px;
+    text-align: center;
+    height: 190px;
+    border-radius: 20px;
+}
+
+.tenvalop {
+    font-weight: 600;
+}
+
+.bangthongtin {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 10px;
+}
+.bangthongtin a{
+    padding: 10px;
+}
+.card .image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    flex-shrink: 0;
+}
+@media screen and (min-width:767px) {
+    .ttkq {
+        font-size: 17pt;
+    }
+
+    .tgian {
+        font-size: 15pt;
+    }
+
+    .thongbao p {
+        font-size: 18pt;
+    }
+
+    .back {
+        font-size: 30pt;
+    }
+
+    .search {
+        font-size: 25pt;
+    }
+    .tenvalop p {
+        font-size: 20pt;
+    }
+    .diachi p {
+        font-size: 16pt;
+    }
+    .gvchunhiem p {
+        font-size: 16pt;
+
+    }
+    .card .image {
+        width: 100px;
+        height: 100px;
+    }
+    .content p {
+        font-size: 15pt;
+    }
+}

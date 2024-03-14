@@ -1,0 +1,336 @@
+
+a {
+    color: #ccc
+}
+.card {
+    background: #fff;
+}
+.card .container {
+    background: #fff;
+}
+/* Start header */
+.card .container .header {
+    display: flex;
+    justify-content: space-between;
+}
+.card .container .title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #009CD6;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+.card .container .text-header {
+    font-weight: 400;
+    font-size: 16px;
+    color: #009CD6;
+    margin: 0;
+    padding: 0;
+}
+.title-description .title-1 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    text-shadow: 0.1em 0.1em #fff;
+    margin: 0;
+    padding: 0;
+}
+.title-description .text-header-1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    text-shadow: 0.1em 0.1em #fff;
+    margin: 0;
+    padding: 0;
+}
+.card .container .img-header {
+    margin: 10px 0 0 0;
+    width: 44px;
+    height: 20px;
+}
+/* End header */
+
+/* Start banner-school */
+.banner-school {
+    display: flex;
+}
+.card .container .banner {
+    padding-top: 0.5rem;
+}
+.card .container .banner {
+    width: 100%;
+    height: 150px;
+    border-radius: 18px;
+    position: relative;
+}
+.card .description {
+    position: absolute;
+    display: flex;
+}
+.card .avatar {
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+}
+.card .avatar-1 {
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+}
+.title-description {
+    margin-top: 15px;
+}
+.description-gmail {
+    position: absolute;
+    background: #ffffffba;
+    border-radius: 10px;
+    margin: 105px 0px 0px 10px;
+}
+.description-icon {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: #f5b847a4;
+    margin: 8px 0 0 310px;
+    height: 142px;
+    border-radius: 0px 12px 16px 0px;
+}
+.icon-description {
+    text-align: center;
+    font-size: 16pt;
+}
+/* End banner-school */
+
+/* Start Slider */
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slides span {
+    width: 100%;
+    flex: 0 0 auto;
+    text-align: center;
+    font-size: 12pt;
+    padding: 10px;
+}
+/* End Slider */
+
+/* Start Tiện tích */
+.tienich_hinhanh {
+    margin: 10px;
+    padding: 10px;
+    background: #a7e9f570;;
+    height: 85px;
+    width: 85px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conten_tienich p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.img-icon {
+    width: 50px;
+    height: 50px;
+}
+/* End tiện ích */
+
+/* StartFooter */
+footer {
+    background-color: #fff;
+    color: #ccc;
+    padding: 20px 20px 0px 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    text-align: center;
+    cursor: pointer;
+}
+.icon .fa {
+    font-size: 18pt;
+}
+.icon-text {
+    display: block;
+    margin-top: 5px;
+    opacity: 0;
+    /* initially hide text */
+}
+.icon.active .icon-text {
+    opacity: 1;
+}
+.special {
+    color: #0565AF;
+    font-weight: 700;
+}
+/* End Footer */
+
+/* Chỉnh Media Ipad Mini và Ipad Air */
+@media screen and (min-width:767px) {
+    .card .container .banner {
+        width: 100%;
+        height: 300px;
+        border-radius: 18px;
+        position: relative;
+    }
+    .card .avatar {
+        width: 100px;
+        height: 100px;
+        margin: 25px;
+    }
+    .card .avatar-1 {
+        width: 100px;
+        height: 100px;
+        margin: 25px;
+    }
+    .card .container .title {
+        font-size: 20pt;
+    }
+    .card .container .text-header {
+        font-size: 16pt;
+    }
+    .card .container .img-header {
+        width: 66px;
+        height: 40px;
+    }
+    .title-description .title-1 {
+        margin: 20px 0 0 0;
+        font-size: 20pt;
+    }
+    .title-description .text-header-1 {
+        font-size: 16pt;
+    }
+    .description-gmail {
+        border-radius: 10px;
+        margin: 240px 0px 0px 20px;
+    }
+    .description-icon {
+        margin: 8px 0 0 540px;
+        height: 290px;
+    }
+    .icon-description {
+        margin-top: 30px;
+        font-size: 29pt;
+    }
+    .slides span {
+        width: 100%;
+        flex: 0 0 auto;
+        text-align: center;
+        font-size: 17pt;
+        padding: 10px;
+    }
+    .tienich_hinhanh {
+        height: 150px;
+        width: 150px;
+        border-radius: 20px;
+    }
+    .img-icon {
+        width: 80px;
+        height: 80px;
+    }
+    .conten_tienich {
+        font-size: 17pt;
+    }
+    footer {
+        padding: 20px 60px 10px 60px;
+    }
+    .icon .fa {
+        font-size: 30pt;
+    }
+    .icon-text {
+        font-size: 18pt;
+    }
+}
+
+/* Chỉnh Media Ipad Pro */
+@media screen and (min-width:1024px) {
+    .card .container .banner {
+        width: 100%;
+        height: 300px;
+        border-radius: 18px;
+        position: relative;
+    }
+    .card .avatar {
+        width: 100px;
+        height: 100px;
+        margin: 25px;
+    }
+    .card .avatar-1 {
+        width: 100px;
+        height: 100px;
+        margin: 25px;
+    }
+    .card .container .title {
+        font-size: 20pt;
+    }
+    .card .container .text-header {
+        font-size: 16pt;
+    }
+    .card .container .img-header {
+        width: 66px;
+        height: 40px;
+    }
+    .title-description .title-1 {
+        margin: 20px 0 0 0;
+        font-size: 20pt;
+    }
+    .title-description .text-header-1 {
+        font-size: 16pt;
+    }
+    .description-gmail {
+        border-radius: 10px;
+        margin: 240px 0px 0px 20px;
+    }
+    .description-icon {
+        margin: 8px 0 0 780px;
+        height: 290px;
+    }
+    .icon-description {
+        margin-top: 30px;
+        font-size: 29pt;
+    }
+    .slides span {
+        width: 100%;
+        flex: 0 0 auto;
+        text-align: center;
+        font-size: 17pt;
+        padding: 10px;
+    }
+    .tienich_hinhanh {
+        height: 150px;
+        width: 150px;
+        border-radius: 20px;
+    }
+    .img-icon {
+        width: 80px;
+        height: 80px;
+    }
+    .conten_tienich {
+        font-size: 17pt;
+    }
+    footer {
+        padding: 20px 60px 10px 60px;
+    }
+    .icon .fa {
+        font-size: 30pt;
+    }
+    .icon-text {
+        font-size: 18pt;
+    }
+}

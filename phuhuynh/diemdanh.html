@@ -1,0 +1,166 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- <link rel="apple-touch-icon" sizes="76x76" href="templates/siteground-j15-158/assets/img/apple-icon.png">
+         <link rel="shortcut icon" href="templates/siteground-j15-158/images/qtscImg/qtsc_icon.png" type="image/x-icon">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+        name='viewport' />
+    <!-- Extra details for Live View on GitHub Pages -->
+    <!-- Canonical SEO -->
+    <link rel="canonical" href="" />
+    <!--  Social tags      -->
+    <meta name="keywords" content="Phần mềm quản lý học viên QBSedu">
+    <meta name="description" content="Phần mềm quản lý học viên QBSedu">
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Phần mềm quản lý học viên QBSedu">
+    <meta itemprop="description" content="Phần mềm quản lý học viên QBSedu">
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="product">
+    <meta name="twitter:site" content="@keri">
+    <meta name="twitter:title" content="Phần mềm quản lý học viên QBSedu">
+    <meta name="twitter:description" content="Phần mềm quản lý học viên QBSedu">
+    <meta name="twitter:creator" content="@keri">
+    <!-- Open Graph data -->
+    <meta property="fb:app_id" content="655968634437471">
+    <meta property="og:title" content="Phần mềm quản lý học viên QBSedu" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta property="og:description" content="Phần mềm quản lý học viên QBSedu" />
+    <meta property="og:site_name" content="Keri" />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <!-- CSS Files -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/demo/demo.css" rel="stylesheet" />
+    <link href="../assets/css/now-ui-dashboard.minaa26.css?v=1.5.0" rel="stylesheet" />
+
+    <script type='text/javascript' src='https://code.jquery.com/jquery-3.5.1.js'></script>
+    <!--     Fonts and icons     -->
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://use.fontawesome.com/5430ef00bc.js"></script>
+    <title>QBSEdu - Giải pháp giáo dục</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+    <link rel="stylesheet" href="../assets/css/phuhuynh/diemdanh.css">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@fullcalendar/core/main.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Nội dung ở đây -->
+        <div class="card">
+            <div class="head_dautrang"></div>
+            <div class="head_dautrang1" style="height: 44px;"></div>
+            <div class="container">
+                <!-- Header -->
+
+                <div class="headerr">
+                    <div class="chevron">
+                        <a href="./home.html">
+                            <i class="fa fa-angle-left back"></i>
+                        </a>
+                    </div>
+                    <p class="text-headerr">Điểm Danh</p>
+
+                </div>
+                <!-- Lịch -->
+                <div class="content" style="display: flex; align-items: center;">
+                    <input type="date" id="datePicker">
+                    <button id="showInfoBtn" style="margin-left: 5px;">Hiển thị thông tin</button>
+                   
+                </div>
+                <div id="info">
+
+                </div>
+                <!-- Text -->
+                
+                <!-- cái này để lock lại vì thanh footer bị đề lên -->
+                <div class="" style="height: 400px;">
+                </div>
+                <!--  -->
+            </div>
+            <!-- Footer -->
+            <footer>
+                <div class="footer-icons">
+                    <div class="icon" onclick="activateIcon(this)">
+                        <a href="./home.html" class="icon">
+                            <i class="fa fa-home"></i>
+                            <span class="icon-text">Home</span>
+                        </a>
+                    </div>
+                    <div class="icon" onclick="activateIcon(this)">
+                        <a href="./diemdanh.html" class="icon active special">
+                            <i class="fa fa-calendar"></i>
+                            <span class="icon-text">Điểm danh</span>
+                        </a>
+                    </div>
+                    <div class="icon" onclick="activateIcon(this)">
+                        <a href="./hoctap.html" class="icon">
+                            <i class="fa fa-graduation-cap"></i>
+                            <span class="icon-text">Học tập</span>
+                        </a>
+                    </div>
+                    <div class="icon" onclick="activateIcon(this)">
+                        <a href="./danhsachhocsinh.html" class="icon ">
+                            <i class="fa fa-user"></i>
+                            <span class="icon-text">Học sinh</span>
+                        </a>
+                    </div>
+                    <div class="icon" onclick="activateIcon(this)">
+                        <a href="./caidat.html" class="icon">
+                            <i class="fa fa-cog"></i>
+                            <span class="icon-text">Cài đặt</span>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+<script>
+   document.getElementById("showInfoBtn").addEventListener("click", function () {
+    var selectedDate = document.getElementById("datePicker").value;
+    var infoDiv = document.getElementById("info");
+    var imageToShow = document.createElement("img"); // Tạo một thẻ <img> mới
+
+    var timeInInfo = document.createElement("p");
+    timeInInfo.innerHTML = "Giờ vào lớp: 19:30"; // Thay đổi giờ vào lớp tùy thuộc vào dữ liệu thực tế
+
+    // Tạo thẻ <img> để hiển thị hình ảnh tương ứng với giờ vào lớp
+    var imageTimeIn = document.createElement("img");
+    imageTimeIn.src = "../assets/img/tanhoc1.webp"; // Đường dẫn hình ảnh tùy thuộc vào ngày được chọn
+    imageTimeIn.classList.add("thumbnail"); // Thêm lớp để áp dụng CSS
+
+    // Thêm thông tin giờ vào lớp và hình ảnh vào phần tử có id="info"
+    infoDiv.appendChild(timeInInfo);
+    infoDiv.appendChild(imageTimeIn);
+
+    // Tạo thẻ <p> để hiển thị thông tin về giờ ra lớp
+    var timeOutInfo = document.createElement("p");
+    timeOutInfo.innerHTML = "Giờ ra lớp: 21:30"; // Thay đổi giờ ra lớp tùy thuộc vào dữ liệu thực tế
+
+    // Tạo thẻ <img> để hiển thị hình ảnh tương ứng với giờ ra lớp
+    var imageTimeOut = document.createElement("img");
+    imageTimeOut.src = "../assets/img/tanhoc2.webp"; // Đường dẫn hình ảnh tùy thuộc vào ngày được chọn
+    imageTimeOut.classList.add("thumbnail"); // Thêm lớp để áp dụng CSS
+
+    // Thêm thông tin giờ ra lớp và hình ảnh vào phần tử có id="info"
+    infoDiv.appendChild(timeOutInfo);
+    infoDiv.appendChild(imageTimeOut);
+});
+
+</script>
+<html>
